@@ -33,8 +33,8 @@ export default async function Footer() {
               <Logo />
             </a>
             <p className="mt-5 max-w-sm leading-7 text-muted-foreground">
-              Frontend developer crafting modern, fast and scalable web applications with a focus on great user
-              experience.
+              Full stack web developer crafting modern, fast and scalable web applications, from polished interfaces to
+              APIs and databases.
             </p>
             <ul className="mt-6 flex gap-3">
               {socialLinks.map((link) => {

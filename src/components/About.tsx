@@ -25,7 +25,7 @@ export default function About() {
             />
           </div>
           <h3 className="relative mt-5 text-2xl font-bold">Abul Hasan</h3>
-          <p className="relative text-muted-foreground">Frontend Developer</p>
+          <p className="relative text-muted-foreground">Full Stack Web Developer</p>
           <p className="relative mt-4 inline-flex items-center gap-2 rounded-full bg-green-500/15 px-4 py-1.5 text-sm font-medium text-green-600 dark:text-green-400">
             <span className="size-2 rounded-full bg-green-500" />
             Open to opportunities
@@ -43,11 +43,11 @@ export default function About() {
         <div className="flex flex-col gap-8">
           <div className="space-y-4 text-lg leading-8 text-muted-foreground">
             <p>
-              Hi, I&apos;m <strong className="text-foreground">Abul Hasan</strong>, a frontend developer who builds
-              clean, fast and accessible web applications.
+              Hi, I&apos;m <strong className="text-foreground">Abul Hasan</strong>, a full stack web developer who
+              builds clean, fast and accessible web applications, from the interface to the API and database.
             </p>
             <p>
-              I care about the details: responsive layouts, smooth interactions and code that is easy to maintain, so
+              I care about the details: responsive layouts, reliable back ends and code that is easy to maintain, so
               your product feels great to use and stays easy to grow.
             </p>
             <p>Looking for a developer for your team or your next project? I&apos;d love to hear from you.</p>

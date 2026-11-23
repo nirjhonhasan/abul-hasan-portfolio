@@ -3,9 +3,8 @@
 export const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Projects", href: "#projects" },
-  { label: "Services", href: "#services" },
-  { label: "Contact", href: "#contact" },
   { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
   { label: "Blog", href: "#blog" },
 ];
 
@@ -28,23 +27,25 @@ export const skills = [
   "TypeScript",
   "JavaScript",
   "Tailwind CSS",
-  "HTML5",
-  "CSS3",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "REST APIs",
   "Git & GitHub",
 ];
 
 export const services = [
   {
-    title: "Modern Web Apps",
-    text: "Responsive, scalable interfaces built with React and Next.js.",
+    title: "Full Stack Web Apps",
+    text: "End-to-end products with React and Next.js on the front and Node.js and MongoDB behind.",
   },
   {
-    title: "Polished UI",
-    text: "Designs turned into pixel-careful, accessible components.",
+    title: "APIs & Databases",
+    text: "Secure REST APIs, authentication and data models built with Express and MongoDB.",
   },
   {
     title: "Fast & Maintainable",
-    text: "Quick load times and clean TypeScript that is easy to grow.",
+    text: "Quick load times, polished UI and clean TypeScript that is easy to grow.",
   },
 ];
 

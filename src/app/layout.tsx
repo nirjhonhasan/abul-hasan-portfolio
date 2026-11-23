@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abul Hasan | Frontend Developer",
+  title: "Abul Hasan | Full Stack Web Developer",
   description:
-    "Abul Hasan is a frontend developer who builds modern, fast and scalable web applications with a focus on great user experience.",
+    "Abul Hasan is a full stack web developer who builds modern, fast and scalable web applications, from polished interfaces to APIs and databases.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
