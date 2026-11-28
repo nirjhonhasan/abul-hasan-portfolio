@@ -1,4 +1,5 @@
 import { cacheLife } from "next/cache";
+import SectionLink from "@/components/SectionLink";
 import { ArrowUp, Mail, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import Logo from "@/components/Logo";
@@ -29,9 +30,9 @@ export default async function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.2fr]">
           {/* Brand */}
           <div>
-            <a href="#home" aria-label="Abul Hasan, back to top" className="inline-block">
+            <SectionLink href="/#home" aria-label="Abul Hasan, home" className="inline-block">
               <Logo />
-            </a>
+            </SectionLink>
             <p className="mt-5 max-w-sm leading-7 text-muted-foreground">
               Full stack web developer crafting modern, fast and scalable web applications, from polished interfaces to
               APIs and databases.
@@ -62,10 +63,10 @@ export default async function Footer() {
             <ul className="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 sm:max-w-xs">
               {navLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="group inline-flex flex-col font-medium text-muted-foreground transition-colors hover:text-foreground">
+                  <SectionLink href={link.href} className="group inline-flex flex-col font-medium text-muted-foreground transition-colors hover:text-foreground">
                     {link.label}
                     <span className="h-0.5 w-0 rounded-full bg-linear-to-r from-brand-blue to-brand-violet transition-all duration-300 group-hover:w-full" />
-                  </a>
+                  </SectionLink>
                 </li>
               ))}
             </ul>
@@ -107,13 +108,13 @@ export default async function Footer() {
         <div className="relative flex flex-col items-center justify-between gap-4 border-t border-foreground/10 py-6 text-sm text-text-muted sm:flex-row">
           <p>&copy; {year} Abul Hasan. All rights reserved.</p>
           <p>Built with Next.js, React &amp; Tailwind CSS</p>
-          <a
-            href="#home"
+          <SectionLink
+            href="#top"
             aria-label="Back to top"
             className="glass group flex size-11 items-center justify-center rounded-full text-foreground transition-all hover:-translate-y-1 hover:shadow-[0_0_24px] hover:shadow-brand-violet/50 focus-visible:outline-2 focus-visible:outline-brand-blue"
           >
             <ArrowUp aria-hidden className="size-5 transition-transform group-hover:-translate-y-0.5" />
-          </a>
+          </SectionLink>
         </div>
       </div>
     </footer>

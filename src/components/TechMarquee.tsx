@@ -4,7 +4,7 @@ import { technologies } from "@/lib/site";
 // moves left by exactly half its width, so the loop is seamless. Hovering pauses it.
 export default function TechMarquee() {
   return (
-    <section aria-label="Technologies I use" className="px-4 pb-10 sm:px-6 lg:px-8">
+    <section aria-label="Technologies I use" className="px-4 pb-6 sm:px-6 lg:px-8 lg:pb-10">
       <div className="group mx-auto max-w-7xl overflow-hidden py-4">
         <div className="[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]">

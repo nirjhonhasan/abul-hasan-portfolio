@@ -13,7 +13,7 @@ export default function Logo() {
           className="scale-[1.45] object-cover dark:hue-rotate-180 dark:invert"
         />
       </span>
-      <span className="text-lg font-bold">
+      <span className="text-base font-bold whitespace-nowrap min-[360px]:text-lg">
         Abul <span className="text-brand-blue dark:text-[#9b8aff]">Hasan</span>
       </span>
     </span>

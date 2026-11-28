@@ -1,11 +1,11 @@
 // Edit the content of the portfolio here.
 
 export const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Projects", href: "#projects" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
-  { label: "Blog", href: "#blog" },
+  { label: "Home", href: "/#home" },
+  { label: "Projects", href: "/projects" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
+  { label: "Blog", href: "/#blog" },
 ];
 
 export const contact = {
